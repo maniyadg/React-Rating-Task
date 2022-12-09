@@ -7,7 +7,7 @@ function Card({ product, addtoCart, cartitems }) {
         <div className="col-lg-12 ">
           <img
             class="card-img-top"
-            src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+            src={product.img}
             alt="..."
           />
         </div>
